@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database" Class="databaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="WindowsFormsApplication11.Properties.Settings" SettingsPropertyName="DatabaseConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Musteri" Member="Musteris">
+    <Type Name="Musteri">
+      <Column Name="RefNum" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GondAdSoyad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GondTel" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="GondSehir" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GondAdres" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AliciAdSoyad" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="AliciTel" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="AliciSehir" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AliciAdres" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Musteri_Ürün" Member="Ürüns" ThisKey="RefNum" OtherKey="RefNum" Type="Ürün" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ürün" Member="Ürüns">
+    <Type Name="Ürün">
+      <Column Name="RefNum" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="YükTürü" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YükMiktarı" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TeslimTarihi" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Musteri_Ürün" Member="Musteri" ThisKey="RefNum" OtherKey="RefNum" Type="Musteri" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Uyeler" Member="Uyelers">
+    <Type Name="Uyeler">
+      <Column Name="ad" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="sifre" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

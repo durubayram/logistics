@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Musteri>
+    <RefNum>3</RefNum>
+    <GondAdSoyad>Duru Bayram</GondAdSoyad>
+    <GondTel>905327839463</GondTel>
+    <GondSehir>Antalya</GondSehir>
+    <GondAdres>Lara</GondAdres>
+    <AliciAdSoyad>Turan Bayram</AliciAdSoyad>
+    <AliciTel>905437849622</AliciTel>
+    <AliciSehir>Muğla</AliciSehir>
+    <AliciAdres>Bitez</AliciAdres>
+  </Musteri>
+  <Musteri>
+    <RefNum>4</RefNum>
+    <GondAdSoyad>Ahmet Metin</GondAdSoyad>
+    <GondTel>905534549463</GondTel>
+    <GondSehir>Batman</GondSehir>
+    <GondAdres>merkez</GondAdres>
+    <AliciAdSoyad>Fatih Durmaz</AliciAdSoyad>
+    <AliciTel>905325637322</AliciTel>
+    <AliciSehir>Şanlıurfa</AliciSehir>
+    <AliciAdres>Menderez Mahallesi no:83</AliciAdres>
+  </Musteri>
+  <Musteri>
+    <RefNum>5</RefNum>
+    <GondAdSoyad>Ceren Uzman</GondAdSoyad>
+    <GondTel>905532876876</GondTel>
+    <GondSehir>Gümüşhane</GondSehir>
+    <GondAdres>merkez</GondAdres>
+    <AliciAdSoyad>Aslı Öztürk</AliciAdSoyad>
+    <AliciTel>905426373873</AliciTel>
+    <AliciSehir>Kütahya</AliciSehir>
+    <AliciAdres>merkez</AliciAdres>
+  </Musteri>
+  <Musteri>
+    <RefNum>6</RefNum>
+    <GondAdSoyad>Samet Arda</GondAdSoyad>
+    <GondTel>903326758367</GondTel>
+    <GondSehir>Aksaray</GondSehir>
+    <GondAdres>merkez</GondAdres>
+    <AliciAdSoyad>Tufan Kartal</AliciAdSoyad>
+    <AliciTel>905558809809</AliciTel>
+    <AliciSehir>Elazığ</AliciSehir>
+    <AliciAdres>merkez</AliciAdres>
+  </Musteri>
+  <Musteri>
+    <RefNum>7</RefNum>
+    <GondAdSoyad>Tuğba Boz</GondAdSoyad>
+    <GondTel>905430676547</GondTel>
+    <GondSehir>Burdur</GondSehir>
+    <GondAdres>Düzce Caddesi Atatürk Mahallesi no:21</GondAdres>
+    <AliciAdSoyad>Funda Karahan</AliciAdSoyad>
+    <AliciTel>905328798796</AliciTel>
+    <AliciSehir>Manisa</AliciSehir>
+    <AliciAdres>Turgut Özal Bulvarı </AliciAdres>
+  </Musteri>
+  <Musteri>
+    <RefNum>18</RefNum>
+    <GondAdSoyad>tugba bayraam</GondAdSoyad>
+    <GondTel>905357643497</GondTel>
+    <GondSehir>Mugla</GondSehir>
+    <GondAdres>lara m</GondAdres>
+    <AliciAdSoyad>turan bayram</AliciAdSoyad>
+    <AliciTel>905531265172</AliciTel>
+    <AliciSehir>Bolu</AliciSehir>
+    <AliciAdres>merkez</AliciAdres>
+  </Musteri>
+</NewDataSet>

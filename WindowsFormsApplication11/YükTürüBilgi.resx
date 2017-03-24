@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Perakendecilik, nihai tüketicilere, onların kişisel, aile ve ev kullanımı ile ilgili ürün ve hizmetlerin satılmasını kapsayan işletme faaliyetler bütünüdür. Perakendecilik arabadan tekstile, lokantada yemekten film biletine kadar çok geniş bir alanı kapsamaktadır. Perakendecilik, dağıtım sürecindeki son aşamadır.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Gıda ürünleri için depolama, taşıma ve ambalajlama gibi faaliyetler farklı şekillerde gerçekleştirilirler. Gıda ürünleri temelde bozulabilir ve çürüyebilir bir nitelik taşımaktadır. Aynı zamanda konserve ve benzeri gıda ürünlerinin dayanma süreleri nispeten biraz daha uzun olabilmektedir. Bu nedenle gıda ürünlerinin tamamı literatürde bozulabilir ve çürüyebilir ürünler olarak tanımlanmıştır. Bu doğrultuda depolama ve taşıma gibi lojistik süreçlerde özel koşullara ihtiyaç duymaktadır.</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Tekstil lojistiğine konu olan materyaller genel olarak tamamlanmış tekstil ve hazır giyim ürünleri ile Tekstil endüstrisinde kullanılacak hammadde ve yardımcı maddelerden meydana gelmektedir. Tamamlanmış ürünler son kullanıcı tarafından kullanıma hazır tekstil ürünleri olarak tanımlanabilmekte, bu ürünlerde bayan erkek ve çocuk tekstil ürünleri olmak üzere üç gruba ayrılmaktadır. Tekstil endüstrisi mevsimsel bir niteliğe sahip olup, tekstil lojistiği diğer endüstrilere yönelik lojistik süreçlerden farklı özellikler barındırmaktadır.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Otomobil lojistiği özelliği itibarıyla oldukça karmaşık ve yoğun bir süreçtir. Bunun temel nedeni otomobillerin 10.000–100.000 arasında değişebilen alt parçadan oluşabilmesidir. Otomobil üretimi, ana üretim fabrikası ve onu destekleyen yurtiçi ve uluslararası tedarikçilerden meydana gelen bir ağ organizasyonu söz konusudur. Ülkemizden Bursa TOFAŞ fabrikası ana üretim merkezi olmak üzere, FIAT İtalya, yerli ve uluslararası tedarikçilerden oluşan organizasyonu içerisinde hammadde, yarı mamul ve hazır parça akışı örnek olarak verilebilir.</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Fuar ve etkinlikler (konferans, kongre, sempozyum, sergi, tanıtım kampanyası vb.) günümüzde dünya ticaretinin ayrılmaz bir parçası olup, işletmelerin pazarlama – tutundurma stratejilerinde önemli bir işlevi bulunmaktadır. Belirli bir zaman aralığında ve belirli bir amaç doğrultusunda düzenlenen fuarlar, hedef pazarlara işletme ürün ve hizmetlerinin tanıtıldığı, satıcı ve alıcıların; bir bakıma arz ve talebin bir araya geldiği buluşma noktalarıdır.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>İnşaat lojistiği operasyonel süreçler ve gerçekleştirilen lojistik faaliyetlerin genel kargo ve yük operasyonlarından farklılık arz etmesinden dolayı Spesifik operasyonlar olarak tanımlanabilmektedir. Operasyonu gerçekleştirilecek malın farklı ebat ve özellikler taşıması taşıma ve elleçleme operasyonlarının da her seferde farklılaşması anlamına gelmektedir. Dolayısıyla uygulanan lojistik çözümler her operasyon için farklı biçimlerde söz konusu olabilmektedir.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Tehlikeli maddeler, doğaları gereği, içerik ve durumları itibariyle dikkatsizlik ve kazalar sonucunda çevre güvenliğini, hayvanları, insanları ve genel güvenliği tehlikeye düşüren maddeler olarak tanımlanmışlardır. Bu maddelerin karayolu ile taşınması çevrede yanıcı, yakıcı, patlayıcı, aşındırıcı ve zehirleyici etkileri olan çeşitli kaza risklerini ortaya çıkartmaktadır. Bu risklerin en düşük seviyeye indirilmesi için tehlikeli maddelerin taşınma şartları çeşitli konvansiyonlar ve uluslararası anlaşmalarla bir düzene bağlanmıştır.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Sağlık hizmeti veren özel veya kamu hastanelerinin ihtiyaç taleplerinin belirlenmesinden, ilaçlar ve ameliyat malzemeleri belirlenmesi, satın alma süreçleri hastane içi ve dışına dönük taşımalar ve hastane atıklarının toplanması ve imha tesislerine gönderilmesi sürecini kapsamaktadır. Bu süreç kamu ve özel hastanelerinde farklı şekilde işlem görmektedir.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Avrupa Birliği’nde hayvan yaşam standardının kalitesini ifade eden hayvan refahı bilinci ortaya çıkmıştır ve hızla tüm dünyada kabul görmektedir. Hayvanların refahına yönelik önemli bir görev alanı da hayvan taşımaları, hayvan refahı, hayvan-insan sağlığı ve hayvancılık ekonomisi bakımından oldukça önemlidir. Uygun şartlarda yapılmayan sevkiyatlar hayvanlarda yaralanmalara, sakatlanmalara, hastalıklara ve ölümlere neden olmaktadır. Bu durum Gıda Tedarik Zinciri Yönetiminde et kalitesinin düşmesine neden olmakta ve ekonomik kayıplara yol açmaktadır.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Elektronik Sektörü, rekabetin en yoğun olduğu sektörlerin başında gelmektedir. En iyi, en ekonomik, en uygun boyut, en son teknoloji ürünler rekabette öne çıkmaktadırlar. Belirli standartlardaki ürünlerin en hızlı şekilde, en düşük fiyatla hedefteki tüketiciye ve pazara ulaştırılmasında rekabet önemlidir. </value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Turizm lojistiği diğer sektörlerden farklı lojistik süreçler içermekle birlikte, kendi içerisinde de farklılaşabilmektedir. Özellikle turizm sektörüne olan taleplerde amaçların farklılaşması lojistik ve tedarik zincirinin yapısını da farklılaştırmaktadır. Lojistik süreçler farklı turizm alternatifleri çerçevesinde dönemsellik ve coğrafya gibi nedenlerle farlı şekilde yapılanabilmektedir.</value>
+  </data>
+</root>

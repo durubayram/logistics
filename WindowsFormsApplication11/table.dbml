@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database2" Class="tableDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database2.mdf;Integrated Security=True" SettingsObjectName="WindowsFormsApplication11.Properties.Settings" SettingsPropertyName="Database2ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[Table]" Member="Tables">
+    <Type Name="Table">
+      <Column Name="referansnum" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[müsteri adı]" Member="müsteri_adı" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="yüktürü" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="yükmiktarı" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="göndericiAdres" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="alıcıAdres" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="gönSehir" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="alanSehir" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="telefon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

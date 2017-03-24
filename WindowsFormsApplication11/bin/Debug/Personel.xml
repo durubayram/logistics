@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Calisanlar>
+  <Personel>
+    <tc>67863754673</tc>
+    <adsoyad>Ahmet Gür</adsoyad>
+    <telefon>05334678964</telefon>
+    <departman>Sürücü</departman>
+  </Personel>
+  <Personel>
+    <tc>23645789261</tc>
+    <adsoyad>Fatih Avcı</adsoyad>
+    <telefon>05436783241</telefon>
+    <departman>Sürücü</departman>
+  </Personel>
+  <Personel>
+    <tc>73890789041</tc>
+    <adsoyad>Ahmet Duman</adsoyad>
+    <telefon>05322035673</telefon>
+    <departman>Nakliye</departman>
+  </Personel>
+  <Personel>
+    <tc>73625673892</tc>
+    <adsoyad>Canan Toy</adsoyad>
+    <telefon>05556732112</telefon>
+    <departman>Temizlik</departman>
+  </Personel>
+</Calisanlar>
